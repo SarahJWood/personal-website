@@ -1,0 +1,217 @@
+.top {
+    margin-top: 33px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 800px;
+    color: white;
+    font-family: 'Doto';
+    margin-top: -100px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-image: url("website_background.png");
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header {
+    font-family: 'IBM Plex Mono';
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 33px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "Josefin Sans";
+    margin-bottom: 10px;
+}
+
+a h2 {
+    font-family: "Josefin Sans";
+    color: white;
+    text-decoration: underline;
+    transition: text-decoration-color 0.3s ease;
+    text-decoration-color: hsl(26 100% 69%);
+    text-underline-offset: 8px;
+}
+
+a:hover h2 {
+    text-decoration: underline;
+    text-decoration-color: hsl(0 100% 69%);
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.375rem 0.75rem;
+    transition: color 0.15s ease-in-out, translate 0.15s ease-in-out;
+    color: white;
+    font-size: 50px;
+}
+
+.logo-button:hover {
+    color: hsl(222, 100%, 85%);
+    transform: translateY(-5px) scale(1.1);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 75px;
+    width: 200px;
+    background-color: hsl(26 100% 69%);
+    border: 1px solid transparent;
+    border-radius: 1.3rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+    margin-right: 33px;
+    font-family: 'Andale Mono';
+    font-size: 33px;
+}
+
+.button:hover {
+    background-color: hsl(26, 100%, 61%);
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text {
+    padding: 5%;
+    font-family: 'IBM Plex Mono';
+    font-size: 40px;
+    text-align: left;
+    color: white
+}
+
+.backgroundborder {
+    width: 100%;
+}
+
+.animate-on-scroll {
+    transition: 1.5s;
+}
+
+.animate {
+    width: 50%;
+}
+
+.orangeborder {
+    height: 33px;
+    margin-bottom: 33px;
+    background-color: hsl(26 100% 69%);
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+.redborder {
+    height: 33px;
+    margin-bottom: 33px;
+    background-color: hsl(0 100% 69%);
+    position: relative;
+    z-index: 2;
+}
+
+.border {
+    margin-top: 13px;
+}
+
+.whiteborder {
+    height: 33px;
+    margin-bottom: 33px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+    bottom: 25px;
+    left: 10px;
+    border: 5px solid hsl(0 100% 69%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(218, 65%, 28%);
+}
+
+.pdf {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    font-family: 'Doto';
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    font-size: 18px;
+}
