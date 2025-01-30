@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 800px;
+    min-height: 90vh;
     color: white;
     font-family: 'Doto';
     margin-top: -100px;
@@ -21,7 +21,7 @@
     position: absolute;
     background-size: cover;
     background-position: center;
-    background-image: url("website_background.png");
+    background-attachment: fixed;
     align-items: center;
     top: 0;
     left: 0;
@@ -40,7 +40,7 @@
 }
 
 h1 {
-    font-size: 100px;
+    font-size: clamp(2rem, 8vw, 100px);
     font-family: "Josefin Sans";
     margin-bottom: 10px;
 }
@@ -60,14 +60,16 @@ a:hover h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: clamp(1rem, 3vw, 25px);
     margin-top: 5px;
 }
 
 nav {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .contact {
@@ -180,8 +182,10 @@ nav {
 }
 
 .profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
+    max-width: 300px;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 50%;
     position: relative;
@@ -203,6 +207,7 @@ body {
 }
 
 .pdf {
+    margin-top: 150px;
     display: block;
     margin: 0 auto;
 }
