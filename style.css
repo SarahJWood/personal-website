@@ -45,7 +45,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-a h2 {
+h2 {
     font-family: "Josefin Sans";
     color: white;
     text-decoration: underline;
@@ -133,11 +133,12 @@ nav {
 }
 
 .text {
-    padding: 5%;
+    padding: 2.5%;
     font-family: 'IBM Plex Mono';
-    font-size: 40px;
+    font-size: 24px;
     text-align: left;
-    color: white
+    color: white;
+    padding: 50px;
 }
 
 .backgroundborder {
@@ -163,6 +164,7 @@ nav {
 
 .redborder {
     height: 33px;
+    margin-top: 33px;
     margin-bottom: 33px;
     background-color: hsl(0 100% 69%);
     position: relative;
@@ -181,22 +183,24 @@ nav {
     z-index: 1;
 }
 
-.profile-pic {
-    width: 20vw;
-    height: 20vw;
-    max-width: 300px;
-    max-height: 300px;
+img {
+    float: right;
+    margin: 75px 50px 75px 50px;
+    max-width: 100%;
+    height: auto;
+    width: 40vw;
+    height: 40vw;
+    max-width: 350px;
+    max-height: 350px;
     object-fit: cover;
     border-radius: 50%;
     position: relative;
     float: right;
-    bottom: 25px;
-    left: 10px;
     border: 5px solid hsl(0 100% 69%);
     transition: transform 0.3s ease-in-out;
 }
 
-.profile-pic:hover {
+img:hover {
     transform: scale(1.1);
 }
 
@@ -204,6 +208,20 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: hsl(218, 65%, 28%);
+}
+
+.CTG {
+    width: 20vw;
+    height: 20vw;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.climb-img {
+    width: 20vw;
+    height: 20vw;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .pdf {
