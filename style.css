@@ -1,5 +1,6 @@
  /* TODO:
  - make accessible on different screen sizes
+ - add collapsibles styling
  */
 
  body {
@@ -94,6 +95,15 @@
      color: hsl(218, 65%, 28%);
  }
 
+ .contact-link {
+     color: hsl(26 100% 69%);
+     text-decoration: none;
+ }
+
+ .contact-link:hover {
+     text-decoration: underline;
+ }
+
  /* Borders */
  .border {
      position: relative;
@@ -180,9 +190,6 @@
      transition: transform 0.3s ease-in-out;
  }
 
- img.profile-pic:hover {
-     transform: scale(1.1);
- }
 
  img.CTG {
      float: right;
