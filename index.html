@@ -1,3 +1,6 @@
+<!--TODO: 
+-contact section
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,101 +8,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <meta name="description" content="Sarah Wood's personal website!">
-    <title> Sarah Wood </title>
+    <title>Sarah Wood</title>
     <link rel="icon" href="yellow_star_icon.jpg">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Doto:wght@400;700&family=Josefin+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
-    <main>
-        <div class="top">
-            <div class="border">
-                <div class="redborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
-                </div>
-                <div class="orangeborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
-                </div>
-            </div>
-            <div class="container">
-                <header>
-                    <div class="header-text">
-                        <h1>Sarah Wood</h1>
-                        <h3> Computer Science & Global Studies Student</h3>
+    <div id="page-wrapper">
+
+        <nav class="off-screen-menu" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+
+        <button class="ham-menu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <main>
+            <div class="top">
+                <div class="border">
+                    <div class="blueborder">
+                        <div class="orange2border backgroundborder animate-on-scroll"></div>
                     </div>
-                    <nav>
-                        <a href="index.html" class="button"><strong>Home</strong></a>
-                        <a href="about.html" class="button"><strong>About</strong></a>
-                        <a href="projects.html" class="button"><strong>Projects</strong></a>
-                        <a href="resume.html" class="button"><strong>Resume</strong></a>
-                    </nav>
-                </header>
+                    <div class="orangeborder">
+                        <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <header>
+                        <div class="header-text">
+                            <h1>Sarah Wood</h1>
+                            <h3>Computer Science & Global Studies Student</h3>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="border">
+                    <div class="blueborder">
+                        <div class="orange2border backgroundborder animate-on-scroll"></div>
+                    </div>
+                    <div class="orangeborder">
+                        <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                    </div>
+                </div>
             </div>
+
+            <img src="github-profile copy.jpeg" class="profile-pic" alt="GitHub profile picture">
+
+            <div class="text">
+                <section id="aboutme">
+                    <a href="about.html" style="text-decoration:none">
+                        <h2>About Me</h2>
+                    </a>
+                    <p><em>Hi! I'm a junior at the University of Minnesota, double majoring in Computer Science and
+                            Global Studies
+                            with a minor in Spanish. My primary academic interests are spatial AI, technology
+                            accessibility, and Latin
+                            American foreign policy.</em></p>
+                </section>
+            </div>
+
             <div class="border">
-                <div class="redborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                <div class="blueborder">
+                    <div class="orange2border backgroundborder animate-on-scroll"></div>
                 </div>
                 <div class="orangeborder">
                     <div class="whiteborder backgroundborder animate-on-scroll"></div>
                 </div>
             </div>
-        </div>
-        <img src="github-profile copy.jpeg" class="profile-pic" alt="GitHub profile picture">
-        <div class="text">
-            <div class="aboutme">
-                <a href="about.html" style="text-decoration:none">
-                    <h2> About Me </h2>
+
+            <div class="text">
+                <section id="news">
+                    <a href="projects.html" style="text-decoration:none">
+                        <h2>News</h2>
+                    </a>
+                    <article>
+                        <p><em><strong>[March 2025]</strong> I am excited to announce that I am now working as an
+                                undergraduate researcher for Professor Yao-Yi Chiang's Knowledge Computing Lab!</em></p>
+                    </article>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <section id="contact">
+                <a href="https://github.com/SarahJWood" class="logo-button">
+                    <i class="fab fa-github"></i>
                 </a>
-                <p><em> Hi! I'm a sophomore at the University of Minnesota, double majoring in Computer Science and
-                        Global Studies with a minor in Spanish. My primary academic interests are spatial AI,
-                        technology accessibility, and Latin American foreign policy.
-                    </em></p>
-                <p><em> Outside of class, I love rock climbing, volunteer tutoring, and reading. </em></p>
-                <p><em> ¿Prefiere español? Házmelo saber y puedo transcribir cualquier parte de mi sitio 😊.</em></p>
-            </div>
-        </div>
-        <div class="border">
-            <div class="redborder">
-                <div class="whiteborder backgroundborder animate-on-scroll"></div>
-            </div>
-            <div class="orangeborder">
-                <div class="whiteborder backgroundborder animate-on-scroll"></div>
-            </div>
-        </div>
-        <div class="text">
-            <div class="projects">
-                <a href="projects.html" style="text-decoration:none">
-                    <h2> Recent Work </h2>
+                <a href="mailto:sjwood2357@gmail.com" class="logo-button">
+                    <i class="fa fa-envelope"></i>
                 </a>
-                <p><em><strong>[March 2025]</strong> I am excited to announce that I am now working as an undergraduate
-                        researcher for
-                        Professor Yao-Yi Chiang's Knowledge Computing Lab!</em> </p>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="contact">
-            <a href="https://github.com/SarahJWood" class="logo-button">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="mailto:sjwood2357@gmail.com" class="logo-button">
-                <i class="fa fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/sarah-wood-02a053276/" class="logo-button">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        </div>
-        <p><strong>Last Update: 3/15/25</strong></p>
-    </footer>
+                <a href="https://www.linkedin.com/in/sarah-wood-02a053276/" class="logo-button">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </section>
+            <p><strong>2025 Sarah Wood. All rights reserved.</strong></p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 

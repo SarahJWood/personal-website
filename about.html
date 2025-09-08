@@ -1,3 +1,8 @@
+<!--TO DO:
+-fix image formatting
+-condense/shorten writing
+-make climbing image album/carousel
+-->
 <!DOCTYPE html>
 <html lang="eng">
 
@@ -6,141 +11,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <meta name="description" content="Sarah Wood's About Me description.">
-    <title> About | Sarah Wood </title>
+    <meta name="description" content="Sarah Wood's personal website!">
+    <title>Sarah Wood</title>
     <link rel="icon" href="yellow_star_icon.jpg">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Doto:wght@400;700&family=Josefin+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
-    <main>
-        <div class="top">
-            <div class="border">
-                <div class="redborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
-                </div>
-                <div class="orangeborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
-                </div>
-            </div>
-            <div class="container">
-                <header>
-                    <div class="header-text">
-                        <h1>Sarah Wood</h1>
-                        <h3>About Me</h3>
-                    </div>
-                    <nav>
-                        <a href="index.html" class="button">
-                            <strong>Home</strong>
-                        </a>
-                        <a href="about.html" class="button">
-                            <strong>About</strong>
-                        </a>
-                        <a href="projects.html" class="button">
-                            <strong>Projects</strong>
-                        </a>
-                        <a href="resume.html" class="button">
-                            <strong>Resume</strong>
-                        </a>
-                    </nav>
-                </header>
-            </div>
-            <div class="border">
-                <div class="redborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
-                </div>
-                <div class="orangeborder">
-                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
-                </div>
-            </div>
-        </div>
-        <div class="text">
-            <div class="studies">
-                <h2> My Studies</h2>
-                <p><em>When I began college, I had no intention of pursuing Computer Science—I had never even seen
-                        code before! In a spur of the moment decision, took an introductory programming class my second
-                        semester, and soon after, I decided to pursue a double major. So far, it has been one of the
-                        best decisions of my life, as programming provides the perfect outlet for my creativity. I
-                        absolutely love the open-endedness of Computer Science, its applications will take you as far as
-                        your imagination can go.</em></p>
+    <div id="page-wrapper">
 
-                <p><em>In contrast, my Global Studies degree provides the perfect complement Global Studies analyzes
-                        complex world issues, Computer Science empowers me to find their solutions. My dual degree has
-                        given me a holistic approach to technical problems, blending computational thinking and
-                        humanitarian concerns. I hope to tackle global issues with nuance and empathy, ensuring that
-                        technology serves the world both positively and equitably.</em></p>
+        <nav class="off-screen-menu" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+
+        <button class="ham-menu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <main>
+            <div class="top">
+                <div class="border">
+                    <div class="blueborder">
+                        <div class="orange2border backgroundborder animate-on-scroll"></div>
+                    </div>
+                    <div class="orangeborder">
+                        <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <header>
+                        <div class="header-text">
+                            <h1>Sarah Wood</h1>
+                            <h3>About Me</h3>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="border">
+                    <div class="blueborder">
+                        <div class="orange2border backgroundborder animate-on-scroll"></div>
+                    </div>
+                    <div class="orangeborder">
+                        <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="border">
-            <div class="redborder">
-                <div class="whiteborder backgroundborder animate-on-scroll"></div>
-            </div>
-            <div class="orangeborder">
-                <div class="whiteborder backgroundborder animate-on-scroll"></div>
-            </div>
-        </div>
-        <div class="commeng">
-            <img src="ctg_logo.webp" alt="Code the Gap Logo" class="CTG">
+
             <div class="text">
-                <h2> Community Engagement </h2>
-                <p><em>Beyond the classroom, I am committed to academic and STEM field accessibility. Some of my recent
-                        volunteering includes teaching Python at local public schools through Code the Gap, math
-                        tutoring at El Centro Guadelupano, and chairing the University Honors Mentor Program.
-                    </em></p>
-                <p><em>If you would like to learn more about or get involved with any of these initiatives, feel free to
-                        reach out :).</em></p>
+                <div class="studies">
+                    <h2> My Studies</h2>
+                    <p><em>When I began college, I had no intention of pursuing Computer Science—I had never even seen
+                            code before! In a spur of the moment decision, took an introductory programming class my
+                            second
+                            semester, and soon after, I decided to pursue a double major. So far, it has been one of the
+                            best decisions of my life, as programming provides the perfect outlet for my creativity. I
+                            absolutely love the open-endedness of Computer Science, its applications will take you as
+                            far as
+                            your imagination can go.</em></p>
+
+                    <p><em>In contrast, my Global Studies degree provides the perfect complement Global Studies analyzes
+                            complex world issues, Computer Science empowers me to find their solutions. My dual degree
+                            has
+                            given me a holistic approach to technical problems, blending computational thinking and
+                            humanitarian concerns. I hope to tackle global issues with nuance and empathy, ensuring that
+                            technology serves the world both positively and equitably.</em></p>
+                </div>
             </div>
-        </div>
-        <div class="border">
-            <div class="redborder">
-                <div class="whiteborder backgroundborder animate-on-scroll"></div>
+
+            <div class="border">
+                <div class="blueborder">
+                    <div class="orange2border backgroundborder animate-on-scroll"></div>
+                </div>
+                <div class="orangeborder">
+                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                </div>
             </div>
-            <div class="orangeborder">
-                <div class="whiteborder backgroundborder animate-on-scroll"></div>
+
+            <div class="commeng">
+                <img src="ctg_logo.webp" alt="Code the Gap Logo" class="CTG">
+                <div class="text">
+                    <h2> Community Engagement </h2>
+                    <p><em>Beyond the classroom, I am committed to academic and STEM field accessibility. Some of my
+                            recent
+                            volunteering includes teaching Python at local public schools through Code the Gap, math
+                            tutoring at El Centro Guadelupano, and chairing the University Honors Mentor Program.
+                        </em></p>
+                    <p><em>If you would like to learn more about or get involved with any of these initiatives, feel
+                            free to
+                            reach out :).</em></p>
+                </div>
             </div>
-        </div>
-        <div class="climbing">
-            <!--make a slideshow when you know JS!!
+
+            <div class="border">
+                <div class="blueborder">
+                    <div class="orange2border backgroundborder animate-on-scroll"></div>
+                </div>
+                <div class="orangeborder">
+                    <div class="whiteborder backgroundborder animate-on-scroll"></div>
+                </div>
+            </div>
+
+            <div class="climbing">
+                <!--make a slideshow when you know JS!!
             <div class="img-album">
                 <div class="slide">
                 -->
-            <img src="climb_div2.png" alt="Climbing Image" class="climb-img">
-            <div class="text">
-                <h2> Climbing </h2>
-                <p><em>What do I do for fun? Climb! I have been rock climbing for over eight years now, and as cheesy as
-                        it is to say, I wouldn't be who I am today without it. Its a sport built on problem-solving,
-                        where finding your own path (or 'beta') is half the battle of any route. I travel all around the
-                        country competing at the national level; it's been an incredible opportunity to experience new
-                        places, meet new people, and keep going up!</em></p>
-                <h1></h1>
+                <img src="climb_div2.png" alt="Climbing Image" class="climb-img">
+                <div class="text">
+                    <h2> Climbing </h2>
+                    <p><em>What do I do for fun? Climb! I have been rock climbing for over eight years now, and as
+                            cheesy as
+                            it is to say, I wouldn't be who I am today without it. Its a sport built on problem-solving,
+                            where finding your own path (or 'beta') is half the battle of any route. I travel all around
+                            the
+                            country competing at the national level; it's been an incredible opportunity to experience
+                            new
+                            places, meet new people, and keep going up!</em></p>
+                    <h1></h1>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <div class="contact">
-            <a href="https://github.com/SarahJWood" class="logo-button">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="mailto:sjwood2357@gmail.com" class="logo-button">
-                <i class="fa fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/sarah-wood-02a053276/" class="logo-button">
-                <i class="fab fa-linkedin"></i>
-            </a href>
-        </div>
-        <p><strong>Last Update: 3/15/25</strong></p>
-    </footer>
+        <footer>
+            <div class="contact">
+                <a href="https://github.com/SarahJWood" class="logo-button">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:sjwood2357@gmail.com" class="logo-button">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sarah-wood-02a053276/" class="logo-button">
+                    <i class="fab fa-linkedin"></i>
+                </a href>
+            </div>
+            <p><strong>2025 Sarah Wood. All rights reserved.</strong></p>
+        </footer>
+
     </div>
+
+    <script src="script.js"></script>
 </body>
 <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
