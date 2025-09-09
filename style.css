@@ -262,22 +262,22 @@
      border: none;
      text-align: left;
      outline: none;
-     font-family: 'Josefin3 Sans', sans-serif;
-     font-size: 24px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 32px;
      transition: background-color 0.3s ease;
  }
 
  .collapsible:after {
-     content: '\02795';
+     content: '\002B';
      /* plus */
-     font-size: 13px;
-     color: hsl(218, 65%, 28%);
+     font-size: 50px;
+     color: hsl(26 100% 69%);
      float: right;
      margin-left: 5px;
  }
 
  .collapsible.active:after {
-     content: "\2796";
+     content: "\2212";
      /* minus */
  }
 
